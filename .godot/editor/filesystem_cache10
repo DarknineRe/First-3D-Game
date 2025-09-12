@@ -1,0 +1,46 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1757688037
+export_presets.cfg::TextFile/TextFile::-1::1757687853::0::1::::<><><>0<>0<><>::
+icon.webp::CompressedTexture2D/CompressedTexture2D::27118964165343846::1757424814::1757424826::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
+::res://art/::1757474847
+::res://art/creeps/::1757468851
+body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757424814::0::1::::<><><>0<>0<><>::
+eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757424814::0::1::::<><><>0<>0<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::6912470962729766485::1757424814::1757468846::1::::<><><>0<>0<>786e8909d162c288331dfaea89d6b24b<>res://.godot/imported/House In a Forest Loop.ogg-4ee3ec249e1ab610d9f23bb6ae7446e2.oggvorbisstr::
+mob.glb::PackedScene/PackedScene::2952940687663745631::1757424814::1757468846::1::::<><><>0<>0<>53e88c60e799915dfd72623a97588ac5<>res://.godot/imported/mob.glb-8286186475a0e6ed05e5756291a4be25.scn::
+mob_body.tres::StandardMaterial3D/StandardMaterial3D::-1::1757424814::0::1::::<><><>0<>0<><>::
+mob_eye.tres::StandardMaterial3D/StandardMaterial3D::-1::1757424814::0::1::::<><><>0<>0<><>::
+player.glb::PackedScene/PackedScene::8964461739428881931::1757424814::1757468846::1::::<><><>0<>0<>4151047baba0b7f38e63acb61eaeb7ee<>res://.godot/imported/player.glb-81519eeac075d818466ddc9998d2db12.scn::
+pupil.tres::StandardMaterial3D/StandardMaterial3D::-1::1757424814::0::1::::<><><>0<>0<><>::
+::res://art/knife/::1757474871
+Kitchen Knife.glb::PackedScene/PackedScene::5825446760787920246::1757474869::1757474871::1::::<><><>0<>0<>e8ee89303cfd6cd4550f0ef97912aa6b<>res://.godot/imported/Kitchen Knife.glb-71e3846448b5b5837ba35a87a6d2ac71.scn::
+::res://art/Piranha/::1757686149
+ChatGPT Image Sep 12, 2025, 09_08_45 PM.png::CompressedTexture2D/CompressedTexture2D::5168949569110078382::1757686148::1757686149::1::::<><><>0<>0<>faefade048a444c4164fd4cdb66a8e41<>res://.godot/imported/ChatGPT Image Sep 12, 2025, 09_08_45 PM.png-7a347a18d9b4d731b788f851df8b553d.ctex::
+piranhahigh.gltf::PackedScene/PackedScene::9215599594027698686::1757480410::1757480410::1::::<><><>0<>0<>17633cbd83e4f609179a53f67ef823b2<>res://.godot/imported/piranhahigh.gltf-78bba142a782ac70c1865e737a5e72cd.scn::uid://bb65ndtm61oq8::::res://art/Piranha/piranhahigh.png
+piranhahigh.png::CompressedTexture2D/CompressedTexture2D::2522450150319768569::1757480410::1757480411::1::::<><><>0<>0<>3d6a95991451f39ba4ff7d1ee8806e48<>res://.godot/imported/piranhahigh.png-f4d91088666d425e9cd82b98927ec834.s3tc.ctex::
+::res://art/Shark/::1757474391
+shork.gltf::PackedScene/PackedScene::734407786873622622::1757474390::1757474391::1::::<><><>0<>0<>24514198eab96444faf2200c847b2b2d<>res://.godot/imported/shork.gltf-06bf562ffa042d1c743b099e9bddc4a3.scn::uid://bnhaibtcjwb3j::::res://art/Shark/shork.png
+shork.png::CompressedTexture2D/CompressedTexture2D::3313340663595578373::1757474390::1757474391::1::::<><><>0<>0<>3a55d16f69d39f5cad3e172df4154623<>res://.godot/imported/shork.png-b94120e64968e1e0e40f17cba649f035.s3tc.ctex::
+::res://art/table/::1757474537
+dungeon_texture.png::CompressedTexture2D/CompressedTexture2D::5071071939331163190::1757474510::1757474514::1::::<><><>0<>0<>d27c44ef4f30f2a6a4009781b04b3db1<>res://.godot/imported/dungeon_texture.png-9e55ca0b0a0d64f9377216c3c4e0c7d2.s3tc.ctex::
+table_long_tablecloth.gltf::PackedScene/PackedScene::744094220260222214::1757474473::1757474537::1::::<><><>0<>0<>e306b26f9ad3e95cd16ff771f0b44efe<>res://.godot/imported/table_long_tablecloth.gltf-e5cdc6028142b4d015d98b062effc264.scn::uid://ceip2w6n5a4ac::::res://art/table/dungeon_texture.png
+::res://docs/::1757688056
+flipflop.apple-touch-icon.png::CompressedTexture2D::7147681246265760522::1757688056::1757688172::1::::<><><>0<>0<>07ac2f4efb97013f499e86d471ad81b3<>res://.godot/imported/flipflop.apple-touch-icon.png-b56fd08251834461b3483899fdf64953.ctex::
+flipflop.icon.png::CompressedTexture2D::6855893069329168201::1757688056::1757688172::1::::<><><>0<>0<>0613480c3007e5a145a48b2217c49b98<>res://.godot/imported/flipflop.icon.png-23c9a65c981bf11a4898c4ae5611a72a.ctex::
+flipflop.png::CompressedTexture2D::7364517658963362728::1757688056::1757688173::1::::<><><>0<>0<>291aec8a626e3971c15b65ded87b0ac9<>res://.godot/imported/flipflop.png-d820c518c00a3997a58262e6de219ac0.ctex::
+::res://fonts/::1757424900
+LICENSE.txt::TextFile/TextFile::-1::1757424814::0::1::::<><><>0<>0<><>::
+Montserrat-Medium.ttf::FontFile/FontFile::6505293508080888906::1757424814::1757424826::1::::<><><>0<>0<>07233739ee8ed56ec1cb0f04a4ff2983<>res://.godot/imported/Montserrat-Medium.ttf-e832861e4ad4110e172112dc430c04b0.fontdata::
+::res://scenes/::1757688106
+main.tscn::PackedScene::7900728166163481600::1757688106::0::1::::<><><>0<>0<><>::uid://ylgxra3hb0n1::::res://scripts/main.gd<>uid://dfifymtckmhgr::::res://scenes/mob.tscn<>uid://ds2ek4nstm34a::::res://scenes/player.tscn<>uid://kupegkdflsfm::::res://art/table/table_long_tablecloth.gltf<>uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf<>uid://bwe2035kineoc::::res://scripts/score_label.gd
+menu.gd::GDScript/GDScript::832720626712754303::1757493790::0::1::::<>Node<><>0<>0<><>::
+menu.tscn::PackedScene::3533804617037365122::1757688106::0::1::::<><><>0<>0<><>::uid://l4m103usw5qx::::res://scenes/menu.gd<>uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf<>uid://cfv43x53tdhnq::::res://art/Piranha/ChatGPT Image Sep 12, 2025, 09_08_45 PM.png
+mob.tscn::PackedScene::7527068395055692921::1757688106::0::1::::<><><>0<>0<><>::uid://b6tkxnq7vq41r::::res://scripts/mob.gd<>uid://co85i0e1fcfu1::::res://art/knife/Kitchen Knife.glb
+music_player.tscn::PackedScene::6440337352370592683::1757688106::0::1::::<><><>0<>0<><>::uid://c5qpnfga41t4p::::res://art/creeps/House In a Forest Loop.ogg
+player.tscn::PackedScene::8478661705936959450::1757688106::0::1::::<><><>0<>0<><>::uid://cad54wjmrsg06::::res://scripts/player.gd<>uid://d4kdtxg821mqo::::res://art/Piranha/piranhahigh.gltf
+root.tscn::PackedScene/PackedScene::-1::1757493442::0::1::::<><><>0<>0<><>::uid://dktf3rn1rctie::::res://scenes/main.tscn<>uid://dfifymtckmhgr::::res://scenes/mob.tscn
+::res://scripts/::1757687465
+main.gd::GDScript::1707646672002413488::1757687465::0::1::::<>Node<><>0<>0<><>::
+mob.gd::GDScript/GDScript::4602146965989800393::1757480726::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.gd::GDScript::4780908968440218345::1757685904::0::1::::<>CharacterBody3D<><>0<>0<><>::
+score_label.gd::GDScript/GDScript::3940518275861867030::1757429388::0::1::::<>Label<><>0<>0<><>::

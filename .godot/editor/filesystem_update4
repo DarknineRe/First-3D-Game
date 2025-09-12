@@ -1,0 +1,6 @@
+res://scenes/player.tscn
+res://scenes/mob.tscn
+res://scenes/music_player.tscn
+res://scenes/menu.tscn
+res://scenes/main.tscn
+res://scripts/main.gd

@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" uid="uid://dktf3rn1rctie" path="res://scenes/main.tscn" id="1_pyidc"]
+[ext_resource type="PackedScene" uid="uid://dfifymtckmhgr" path="res://scenes/mob.tscn" id="2_vvh5c"]
+
+[sub_resource type="World3D" id="World3D_28aoi"]
+
+[node name="root" type="Window"]
+process_mode = 1
+auto_translate_mode = 1
+world_3d = SubResource("World3D_28aoi")
+msaa_3d = 2
+audio_listener_enable_2d = true
+audio_listener_enable_3d = true
+physics_object_picking = true
+gui_embed_subwindows = true
+positional_shadow_atlas_size = 4096
+title = "Squash the Creeps (3D)"
+position = Vector2i(600, 240)
+size = Vector2i(720, 540)
+borderless = true
+min_size = Vector2i(64, 64)
+content_scale_size = Vector2i(720, 540)
+content_scale_aspect = 1
+
+[node name="Main" parent="." instance=ExtResource("1_pyidc")]
+
+[node name="Mob" parent="Main" instance=ExtResource("2_vvh5c")]
+transform = Transform3D(-0.635623, -0.0324971, -0.771315, 0, 0.999114, -0.0420948, 0.771999, -0.0267564, -0.63506, 169.288, 0, 138.13)
+velocity = Vector3(12.352, 0, 10.17)
+
+[node name="_CharacterBody3D_2" parent="Main" instance=ExtResource("2_vvh5c")]
+transform = Transform3D(0.998651, -0.00276639, -0.0518488, 0, 0.99858, -0.0532792, 0.0519225, 0.0532073, 0.997233, 9.28212, 0, -128.541)
+velocity = Vector3(0.519225, 0, -9.98651)

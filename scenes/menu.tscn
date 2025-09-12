@@ -1,0 +1,80 @@
+[gd_scene load_steps=4 format=3 uid="uid://bql2imc37j57c"]
+
+[ext_resource type="Script" uid="uid://l4m103usw5qx" path="res://scenes/menu.gd" id="1_vjb58"]
+[ext_resource type="FontFile" uid="uid://cyxhh7ddkn62q" path="res://fonts/Montserrat-Medium.ttf" id="2_con2f"]
+[ext_resource type="Texture2D" uid="uid://cfv43x53tdhnq" path="res://art/Piranha/ChatGPT Image Sep 12, 2025, 09_08_45 PM.png" id="2_mhnvy"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_vjb58")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.317647, 0.317647, 0.317647, 0.780392)
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_mhnvy")
+expand_mode = 2
+stretch_mode = 5
+
+[node name="Game_name" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -164.0
+offset_top = 76.0
+offset_right = 165.0
+offset_bottom = 168.0
+grow_horizontal = 2
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("2_con2f")
+theme_override_font_sizes/font_size = 75
+text = "Flip Flop"
+
+[node name="Start_button" type="Button" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -37.5
+offset_right = 100.0
+offset_bottom = 37.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_con2f")
+theme_override_font_sizes/font_size = 40
+action_mode = 0
+text = "Start"
+
+[node name="Exit_button" type="Button" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = 80.0
+offset_right = 100.0
+offset_bottom = 155.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_con2f")
+theme_override_font_sizes/font_size = 40
+action_mode = 0
+text = "Exit"
+
+[connection signal="pressed" from="CanvasLayer/Start_button" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/Exit_button" to="." method="_on_exit_button_pressed"]
