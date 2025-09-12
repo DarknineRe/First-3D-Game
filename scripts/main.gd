@@ -3,7 +3,6 @@ extends Node
 @export var mob_scene: PackedScene
 
 func _ready():
-	MusicPlayer.play()
 	$UserInterface/Retry.hide()
 	$UserInterface/Exit.hide()
 
@@ -28,7 +27,6 @@ func _on_mob_timer_timeout():
 	mob.squashed.connect($UserInterface/ScoreLabel._on_mob_squashed.bind())
 
 func _on_player_hit():
-	MusicPlayer.stop()
 	$MobTimer.stop()
 	$UserInterface/Retry.show()
 	$UserInterface/Exit.show()
