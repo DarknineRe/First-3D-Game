@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dktf3rn1rctie"]
+[gd_scene load_steps=14 format=3 uid="uid://dktf3rn1rctie"]
 
 [ext_resource type="Script" uid="uid://ylgxra3hb0n1" path="res://scripts/main.gd" id="1_tefeu"]
 [ext_resource type="PackedScene" uid="uid://dfifymtckmhgr" path="res://scenes/mob.tscn" id="2_o6xl0"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://kupegkdflsfm" path="res://art/table/table_long_tablecloth.gltf" id="4_85g3d"]
 [ext_resource type="FontFile" uid="uid://cyxhh7ddkn62q" path="res://fonts/Montserrat-Medium.ttf" id="5_choun"]
 [ext_resource type="Script" uid="uid://bwe2035kineoc" path="res://scripts/score_label.gd" id="6_ya4ey"]
+[ext_resource type="PackedScene" uid="uid://dm5ux2nr1oc6f" path="res://art/Astolfo/scene.gltf" id="7_o6xl0"]
 
 [sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_7mycd"]
 points = PackedVector3Array(1, 0.974941, 0.659358, 0.974941, 1, 1.97494, 0.999804, 0.974941, 1.97494, 0.899961, 8.19564e-08, 1.87471, 1, 0.974941, -1.97533, -0.975137, 1, 1.97494, 0.974941, 0.974941, 1.99961, 0.974941, 1, -1.97533, 0.974941, 0.799922, 1.97494, 0.874902, 8.19564e-08, 1.89977, 0.899961, 8.19564e-08, -1.8751, 0.974941, 0.799922, -1.97533, 0.974941, 0.974941, -2, -1, 0.974941, 1.97494, -0.975137, 0.974941, 1.99961, -0.975137, 1, -1.97533, 0.5, 0.499902, 1.99961, -0.875098, 8.19564e-08, 1.89977, 0.406813, 0.466229, 1.99961, 0.148982, 0.431382, 1.99961, 0.874902, 8.19564e-08, -1.90016, 0.499804, 0.499902, -2, -0.975137, 0.974941, -2, -0.900157, 8.19564e-08, 1.87471, -0.975137, 0.799922, 1.97494, -1, 0.974941, -1.97533, -0.5, 0.499902, 1.99961, -1.19209e-07, 0.431382, 1.99961, -0.407009, 0.456245, 1.99961, -0.875098, 8.19564e-08, -1.90016, -0.00019592, 0.431382, -2, 0.406813, 0.456245, -2, -0.500196, 0.499902, -2, -0.975137, 0.799922, -1.97533, -0.900157, 8.19564e-08, -1.8751, -0.407009, 0.466229, -2, -0.149178, 0.431382, -2)
@@ -81,7 +82,7 @@ mesh = SubResource("CylinderMesh_ig7tw")
 curve = SubResource("Curve3D_lquwl")
 
 [node name="SpawnLocation" type="PathFollow3D" parent="SpawnPath"]
-transform = Transform3D(0.999992, 0, 0.0023074, 0, 1, 0, -0.0023074, 0, 0.999992, -13.0502, 0, 13.8961)
+transform = Transform3D(0.999991, 0, 0.0023074, 0, 1, 0, -0.0023074, 0, 0.999991, -13.0502, 0, 13.8961)
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
@@ -195,6 +196,10 @@ collision_layer = 4
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Wall/wall4"]
 shape = SubResource("BoxShape3D_tefeu")
+
+[node name="Astolfo" parent="." instance=ExtResource("7_o6xl0")]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 4.9, 0, -9)
+visible = false
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]

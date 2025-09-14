@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bql2imc37j57c"]
+[gd_scene load_steps=5 format=3 uid="uid://bql2imc37j57c"]
 
 [ext_resource type="Script" uid="uid://l4m103usw5qx" path="res://scenes/menu.gd" id="1_vjb58"]
 [ext_resource type="FontFile" uid="uid://cyxhh7ddkn62q" path="res://fonts/Montserrat-Medium.ttf" id="2_con2f"]
 [ext_resource type="Texture2D" uid="uid://cfv43x53tdhnq" path="res://art/Piranha/ChatGPT Image Sep 12, 2025, 09_08_45 PM.png" id="2_mhnvy"]
+[ext_resource type="FontFile" uid="uid://cqk868yis5via" path="res://fonts/THSarabunNew.ttf" id="4_mhnvy"]
 
 [node name="Menu" type="Node2D"]
 script = ExtResource("1_vjb58")
@@ -75,6 +76,23 @@ theme_override_fonts/font = ExtResource("2_con2f")
 theme_override_font_sizes/font_size = 40
 action_mode = 0
 text = "Exit"
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -129.0
+offset_top = -35.0
+offset_right = 796.0
+offset_bottom = 96.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.3, 0.3)
+theme_override_fonts/font = ExtResource("4_mhnvy")
+theme_override_font_sizes/font_size = 100
+text = "673380264-0 นายชนิณทร์ ใจช่วง"
 
 [connection signal="pressed" from="CanvasLayer/Start_button" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="CanvasLayer/Exit_button" to="." method="_on_exit_button_pressed"]

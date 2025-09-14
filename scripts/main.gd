@@ -3,6 +3,7 @@ extends Node
 @export var mob_scene: PackedScene
 
 func _ready():
+	MusicPlayer.bgm.play()
 	$UserInterface/Retry.hide()
 	$UserInterface/Exit.hide()
 
@@ -30,6 +31,7 @@ func _on_player_hit():
 	$MobTimer.stop()
 	$UserInterface/Retry.show()
 	$UserInterface/Exit.show()
+	MusicPlayer.bgm.stop()
 	for mob in get_tree().get_nodes_in_group("enemy"):
 		mob.queue_free()
 

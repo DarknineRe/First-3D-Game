@@ -3,11 +3,11 @@
 [ext_resource type="Script" uid="uid://cad54wjmrsg06" path="res://scripts/player.gd" id="1_onrkg"]
 [ext_resource type="PackedScene" uid="uid://d4kdtxg821mqo" path="res://art/Piranha/piranhahigh.gltf" id="2_onrkg"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_i3pqv"]
-size = Vector3(0.3, 0.6, 0.8)
+[sub_resource type="BoxShape3D" id="BoxShape3D_g2els"]
+size = Vector3(2, 2.5, 4)
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_onrkg"]
-size = Vector3(0.2, 0.6, 0.9)
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_g2els"]
+points = PackedVector3Array(-0.891486, -1.16095, 0.963362, 0.891, 0.189, 0.963, 0, 1.682, 2.008, -0.000174701, 0.0396682, 2.22017, -0.200999, 0.0617149, 1.77529, -0.285869, 0.672648, 1.15018, -0.552878, 0.4049, 0.685015, -0.89201, -1.15032, -0.0264204, 0.552704, 0.4049, 0.685015, 0.285694, 0.672648, 1.15018, 0.200824, 0.0617149, 1.77529, 0.892009, -1.15032, -0.0264204, 0.1, 0.646, 1.795, 0.1, 0.919, 1.307, 0.1, 1.552, -0.987, 0.1, 0.989, -2.599, 0.1, -0.632, -2.455, -0.000174701, -0.922153, -1.20067, -0.000174701, -1.01087, -0.757671)
 
 [sub_resource type="Animation" id="Animation_qhqgy"]
 length = 0.001
@@ -51,20 +51,22 @@ transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 0, 0, 
 collision_mask = 6
 script = ExtResource("1_onrkg")
 
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(0.18735, 0, 0, 0, 0.18735, 0, 0, 0, 0.18735, -1.64667e-08, 0.0281025, -0.0187351)
+shape = SubResource("BoxShape3D_g2els")
+
 [node name="Pivot" type="Node3D" parent="."]
 
 [node name="piranhahigh" parent="Pivot" instance=ExtResource("2_onrkg")]
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
-shape = SubResource("BoxShape3D_i3pqv")
 
 [node name="MobDetector" type="Area3D" parent="."]
 collision_layer = 0
 collision_mask = 2
 monitorable = false
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="MobDetector"]
-shape = SubResource("BoxShape3D_onrkg")
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="MobDetector"]
+transform = Transform3D(0.18735, 0, 0, 0, 0.18735, 0, 0, 0, 0.18735, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_g2els")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

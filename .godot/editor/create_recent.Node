@@ -1,14 +1,14 @@
+Label
+CollisionShape3D
+Node3D
 AudioStreamPlayer
 Node
-CollisionShape3D
 StaticBody3D
 MeshInstance3D
 StaticBody2D
-Node3D
 ColorRect
 AnimationPlayer
 Node2D
 CanvasLayer
-Label
 TextureRect
 Button

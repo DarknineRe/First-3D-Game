@@ -36,8 +36,13 @@ func _physics_process(delta):
 		# Apply rotation only to the Y axis
 		rotation.y = angle
 		anim.speed_scale = 4
+		if is_on_floor():
+			if not MusicPlayer.walk.playing:
+				MusicPlayer.walk.play()
 	else:
 		anim.speed_scale = 1
+		if MusicPlayer.walk.playing:
+			MusicPlayer.walk.stop()
 
 	# Ground Velocity
 	target_velocity.x = direction.x * speed
@@ -49,6 +54,7 @@ func _physics_process(delta):
 
 	# Jumping.
 	if is_on_floor() and Input.is_action_just_pressed("jump"):
+		MusicPlayer.flop.play()
 		target_velocity.y = jump_impulse
 
 	# Iterate through all collisions that occurred this frame
@@ -66,6 +72,7 @@ func _physics_process(delta):
 			var mob = collision.get_collider()
 			# we check that we are hitting it from above.
 			if Vector3.UP.dot(collision.get_normal()) > 0.1:
+				MusicPlayer.flop.play()
 				# If so, we squash it and bounce.
 				mob.squash()
 				target_velocity.y = bounce_impulse

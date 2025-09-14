@@ -1,5 +1,21 @@
-[gd_scene format=3 uid="uid://cx00oea6q1qut"]
+[gd_scene load_steps=5 format=3 uid="uid://cx00oea6q1qut"]
+
+[ext_resource type="Script" uid="uid://25dra4lxyw26" path="res://scenes/music_player.gd" id="1_jxdhu"]
+[ext_resource type="AudioStream" uid="uid://bkjv3mpkb3edq" path="res://art/music/Misty Memory (Day Version).mp3" id="2_ql6qh"]
+[ext_resource type="AudioStream" uid="uid://xl6bd6tfe8ko" path="res://art/music/fish-flop-101soundboards.mp3" id="3_l7xiw"]
+[ext_resource type="AudioStream" uid="uid://c2sx2vfkjrypo" path="res://art/music/flop3-fish-101soundboards.mp3" id="4_yalyj"]
 
 [node name="MusicPlayer" type="Node"]
+script = ExtResource("1_jxdhu")
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="BGM" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_ql6qh")
+volume_db = -35.0
+
+[node name="Flop_sfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_l7xiw")
+volume_db = -20.0
+
+[node name="Walk_sfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_yalyj")
+volume_db = -30.0

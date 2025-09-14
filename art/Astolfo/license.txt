@@ -1,0 +1,11 @@
+Model Information:
+* title:	Astolfo (RIGGED + TEXTURES)
+* source:	https://sketchfab.com/3d-models/astolfo-rigged-textures-cd4b814df2494f96a2dc1c6efba97ab7
+* author:	Demoman (https://sketchfab.com/TF2Demoman)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Astolfo (RIGGED + TEXTURES)" (https://sketchfab.com/3d-models/astolfo-rigged-textures-cd4b814df2494f96a2dc1c6efba97ab7) by Demoman (https://sketchfab.com/TF2Demoman) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
