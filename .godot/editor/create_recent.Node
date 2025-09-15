@@ -1,3 +1,6 @@
+CanvasLayer
+ProgressBar
+Label
 AudioStreamPlayer
 GPUParticles3D
 CollisionShape3D
@@ -5,10 +8,8 @@ Area3D
 Area2D
 StaticBody3D
 Node3D
-Label
 Node
 MeshInstance3D
 StaticBody2D
 ColorRect
 AnimationPlayer
-Node2D

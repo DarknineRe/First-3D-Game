@@ -10,3 +10,6 @@ res://scenes/trigger.gd
 res://scripts/main.gd
 res://scripts/player.gd
 res://scenes/music_player.gd
+res://combo.gd
+res://scripts/mob.gd
+res://combo.tscn

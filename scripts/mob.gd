@@ -35,4 +35,7 @@ func _on_visible_on_screen_notifier_3d_screen_exited():
 
 func squash():
 	squashed.emit()
+	var combo_ui = get_tree().current_scene.get_node("UserInterface/Combo")
+	if combo_ui:
+		combo_ui.add_combo()
 	queue_free() # Destroy this node
