@@ -3,10 +3,11 @@ res://art/creeps/eye.tres::181f58cc6da21b79e5c2bdc950b5d80b::1757424814::res://.
 res://art/creeps/mob_body.tres::c2c32f8082c89bcbe08f96d216e4bb7f::1757424814::res://.godot/exported/133200997/export-7c77b06007cda789f0428e0b55f75c7c-mob_body.res
 res://art/creeps/mob_eye.tres::7457a69f45dd2322ce9cb4cd507a5ba8::1757424814::res://.godot/exported/133200997/export-b6d6628a02f5286c27269c5c318d62e5-mob_eye.res
 res://art/creeps/pupil.tres::f27e1543ccc84907108f03b626db2e13::1757424814::res://.godot/exported/133200997/export-ed15fb105b37fd3ccb8230a87b78d1f3-pupil.res
-res://scenes/main.tscn::8d0977a9276554c9416497d03e975f89::1757937205::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
-res://scenes/menu.tscn::e3cf750fd21a735ff969878a99a9e439::1757937205::res://.godot/exported/133200997/export-1ce5c86e8ca186dcaaeaa8726f1268db-menu.scn
-res://scenes/mob.tscn::78a8547e20196480d35ad82c9a06c18e::1757937205::res://.godot/exported/133200997/export-12225c12b25e8d9ce131a444da159cba-mob.scn
-res://scenes/music_player.tscn::7cbbd356ab7e7dcca97a7ff56aa6bae0::1757937205::res://.godot/exported/133200997/export-5d3197c3b72425a9cd60dfab9cf23089-music_player.scn
-res://scenes/player.tscn::96bc71f538502db024dd464b2bbb5ffb::1757937204::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/main.tscn::eb1bbed2c873407b76e9c0824cd1f2dd::1757939983::res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn
+res://scenes/menu.tscn::e3cf750fd21a735ff969878a99a9e439::1757939982::res://.godot/exported/133200997/export-1ce5c86e8ca186dcaaeaa8726f1268db-menu.scn
+res://scenes/mob.tscn::78a8547e20196480d35ad82c9a06c18e::1757939982::res://.godot/exported/133200997/export-12225c12b25e8d9ce131a444da159cba-mob.scn
+res://scenes/music_player.tscn::3e17c1c0f5e2b098bb6e57456a2ae15b::1757939982::res://.godot/exported/133200997/export-5d3197c3b72425a9cd60dfab9cf23089-music_player.scn
+res://scenes/player.tscn::96bc71f538502db024dd464b2bbb5ffb::1757939982::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
 res://scenes/root.tscn::31cd535f5f141fa97752ce32d059a942::1757493442::res://.godot/exported/133200997/export-9a2759c6d619d2753cab018ee951808e-root.scn
-res://explosion.tscn::1ebde08b0fa4f3b0d4bab3e5dedacd5d::1757937205::res://.godot/exported/133200997/export-37f562657059001060a0639ef053daa5-explosion.scn
+res://explosion.tscn::1ebde08b0fa4f3b0d4bab3e5dedacd5d::1757939983::res://.godot/exported/133200997/export-37f562657059001060a0639ef053daa5-explosion.scn
+res://combo.tscn::c704fba54ae192f7455eaf956023f49a::1757939983::res://.godot/exported/133200997/export-753b2295faba52a01a8aa2a973e9096c-combo.scn

@@ -23,3 +23,4 @@ volume_db = -30.0
 
 [node name="Explosion" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_io3i6")
+volume_db = -20.0
