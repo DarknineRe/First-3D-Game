@@ -32,6 +32,28 @@ animation/trimming=false
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-_subresources={}
+_subresources={
+"materials": {
+"Mat": {
+"use_external/enabled": false,
+"use_external/path": "uid://tl8877eird8a"
+}
+},
+"meshes": {
+"Plate_Plate_1": {
+"generate/lightmap_uv": 1,
+"generate/lods": 0,
+"generate/shadow_meshes": 0,
+"lods/normal_merge_angle": 60.0,
+"save_to_file/enabled": false,
+"save_to_file/path": ""
+}
+},
+"nodes": {
+"PATH:Plate": {
+"mesh_instance/cast_shadow": 0
+}
+}
+}
 gltf/naming_version=1
 gltf/embedded_image_handling=1
