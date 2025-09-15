@@ -1,6 +1,7 @@
 extends Node
 
 @export var mob_scene: PackedScene
+@onready var player: CharacterBody3D = $Player
 
 func _ready():
 	MusicPlayer.bgm.play()
@@ -28,6 +29,7 @@ func _on_mob_timer_timeout():
 	mob.squashed.connect($UserInterface/ScoreLabel._on_mob_squashed.bind())
 
 func _on_player_hit():
+	player.queue_free()
 	$MobTimer.stop()
 	$UserInterface/Retry.show()
 	$UserInterface/Exit.show()

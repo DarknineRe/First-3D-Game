@@ -1,8 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757931868
+::res://::1757937017
 export_presets.cfg::TextFile/TextFile::-1::1757931868::0::1::::<><><>0<>0<><>::
 icon.webp::CompressedTexture2D/CompressedTexture2D::27118964165343846::1757424814::1757424826::1::::<><><>0<>0<>2765b228073266418cb0e013965e5088<>res://.godot/imported/icon.webp-e94f9a68b0f625a567a797079e4d325f.ctex::
 README.md::TextFile/TextFile::-1::1757689822::0::1::::<><><>0<>0<><>::
+explosion.tscn::PackedScene::2036476978905092663::1757937017::0::1::::<><><>0<>0<><>::uid://gpeek8yltmut::::res://explosion.gd
+explosion.gd::GDScript::452349316603734771::1757937017::0::1::::<>Node3D<><>0<>0<><>::
 ::res://art/::1757835594
 ::res://art/Astolfo/::1757761714
 license.txt::TextFile/TextFile::-1::1757761707::0::1::::<><><>0<>0<><>::
@@ -106,9 +108,11 @@ Waffle.glb::PackedScene::1171775235537043485::1757930515::1757930519::1::::<><><
 Waffle_One_Piece.glb::PackedScene::3350865717452300712::1757930515::1757930519::1::::<><><>0<>0<>acefe62e2ed634ae8909cda84f42a89b<>res://.godot/imported/Waffle_One_Piece.glb-c194aff479e9e982f386a36e6cfa9e5b.scn::uid://demoltxik2tqd::::res://art/item/Junk_Food/Waffle_One_Piece_Food_file1.png
 ::res://art/knife/::1757474871
 Kitchen Knife.glb::PackedScene/PackedScene::5825446760787920246::1757474869::1757474871::1::::<><><>0<>0<>e8ee89303cfd6cd4550f0ef97912aa6b<>res://.godot/imported/Kitchen Knife.glb-71e3846448b5b5837ba35a87a6d2ac71.scn::
-::res://art/music/::1757765962
+::res://art/music/::1757937074
+explosion_inwsgmG.mp3::AudioStreamMP3::560239057219250140::1757937074::1757937074::1::::<><><>0<>0<>8d7f25cbbd14612a1cf3179365f4b02a<>res://.godot/imported/explosion_inwsgmG.mp3-d33be3e5caad2cfa1917519a345ad940.mp3str::
 fish-flop-101soundboards.mp3::AudioStreamMP3/AudioStreamMP3::1638935777868205430::1757765816::1757765816::1::::<><><>0<>0<>157132eee2434983727d551553e16777<>res://.godot/imported/fish-flop-101soundboards.mp3-e36c27bebcf745988774ba706d712e7e.mp3str::
 flop3-fish-101soundboards.mp3::AudioStreamMP3/AudioStreamMP3::6706544763636666116::1757765961::1757765962::1::::<><><>0<>0<>eaf8aff75121a5e81a81bb85cd5941df<>res://.godot/imported/flop3-fish-101soundboards.mp3-92120a73f2627ce750bcdc4afad1fc9e.mp3str::
+minecraft-explosion-green-screen.mp3::AudioStreamMP3::8492136168563176342::1757936985::1757936986::1::::<><><>0<>0<>3db37cad739028d4782ce14c55e96871<>res://.godot/imported/minecraft-explosion-green-screen.mp3-d8ac3337c7ea552314fae1112d030a15.mp3str::
 Misty Memory (Day Version).mp3::AudioStreamMP3/AudioStreamMP3::3108214232846459510::1757765253::1757765254::1::::<><><>0<>0<>62e53cea60922627b019650537fe8262<>res://.godot/imported/Misty Memory (Day Version).mp3-3ad8648f31113237e5881967fe9f43f3.mp3str::
 ::res://art/Piranha/::1757686149
 ChatGPT Image Sep 12, 2025, 09_08_45 PM.png::CompressedTexture2D/CompressedTexture2D::5168949569110078382::1757686148::1757686149::1::::<><><>0<>0<>faefade048a444c4164fd4cdb66a8e41<>res://.godot/imported/ChatGPT Image Sep 12, 2025, 09_08_45 PM.png-7a347a18d9b4d731b788f851df8b553d.ctex::
@@ -120,7 +124,7 @@ shork.png::CompressedTexture2D/CompressedTexture2D::3313340663595578373::1757474
 ::res://art/table/::1757474537
 dungeon_texture.png::CompressedTexture2D/CompressedTexture2D::5071071939331163190::1757474510::1757474514::1::::<><><>0<>0<>d27c44ef4f30f2a6a4009781b04b3db1<>res://.godot/imported/dungeon_texture.png-9e55ca0b0a0d64f9377216c3c4e0c7d2.s3tc.ctex::
 table_long_tablecloth.gltf::PackedScene/PackedScene::744094220260222214::1757474473::1757474537::1::::<><><>0<>0<>e306b26f9ad3e95cd16ff771f0b44efe<>res://.godot/imported/table_long_tablecloth.gltf-e5cdc6028142b4d015d98b062effc264.scn::uid://ceip2w6n5a4ac::::res://art/table/dungeon_texture.png
-::res://docs/::1757931867
+::res://docs/::1757931884
 index.png::CompressedTexture2D::7632885798557690224::1757931867::1757931884::1::::<><><>0<>0<>9db9beb2fb45efff63c5cbe9d54efbfa<>res://.godot/imported/index.png-0c78d14d192abe5f22f8c25928ca1ab8.ctex::
 ::res://fonts/::1757835041
 LICENSE.txt::TextFile/TextFile::-1::1757424814::0::1::::<><><>0<>0<><>::
@@ -129,17 +133,20 @@ THSarabunNew Bold.ttf::FontFile/FontFile::2155802605223713353::1757835040::17578
 THSarabunNew BoldItalic.ttf::FontFile/FontFile::6362140772842863175::1757835040::1757835041::1::::<><><>0<>0<>349e584e2e2834e60b2271415986e5ca<>res://.godot/imported/THSarabunNew BoldItalic.ttf-1a892c4505679fc3f461e24ac137b72d.fontdata::
 THSarabunNew Italic.ttf::FontFile/FontFile::9009839906478612126::1757835040::1757835041::1::::<><><>0<>0<>f10749f7c9526fe507537209383d199d<>res://.godot/imported/THSarabunNew Italic.ttf-fc9174bb58b442cd36820ae3fbe94659.fontdata::
 THSarabunNew.ttf::FontFile/FontFile::5918567434242264948::1757835036::1757835037::1::::<><><>0<>0<>98ed2140fa3556673c8747c824bbf84c<>res://.godot/imported/THSarabunNew.ttf-392cd31ba04e4af707fb84891edb73a0.fontdata::
-::res://scenes/::1757931858
-main.tscn::PackedScene::7900728166163481600::1757931858::0::1::::<><><>0<>0<><>::uid://ylgxra3hb0n1::::res://scripts/main.gd<>uid://dfifymtckmhgr::::res://scenes/mob.tscn<>uid://ds2ek4nstm34a::::res://scenes/player.tscn<>uid://kupegkdflsfm::::res://art/table/table_long_tablecloth.gltf<>uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf<>uid://bwe2035kineoc::::res://scripts/score_label.gd<>uid://dm5ux2nr1oc6f::::res://art/Astolfo/scene.gltf<>uid://crdyjavh4erca::::res://art/item/Junk_Food/Pizza.glb<>uid://dfal4kj4ivtwi::::res://art/item/Junk_Food/Soda_Drink.glb<>uid://b5821oyo7vl5a::::res://art/item/Plate With Food.glb<>uid://cuwp0l05junpp::::res://art/item/Junk_Food/Ice-Cream_Magnum_B.glb<>uid://1nyl1dkvuwsp::::res://art/item/Junk_Food/Potato_Chips.glb
+::res://scenes/::1757937017
+main.tscn::PackedScene::7900728166163481600::1757937017::0::1::::<><><>0<>0<><>::uid://ylgxra3hb0n1::::res://scripts/main.gd<>uid://dfifymtckmhgr::::res://scenes/mob.tscn<>uid://ds2ek4nstm34a::::res://scenes/player.tscn<>uid://kupegkdflsfm::::res://art/table/table_long_tablecloth.gltf<>uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf<>uid://bwe2035kineoc::::res://scripts/score_label.gd<>uid://dm5ux2nr1oc6f::::res://art/Astolfo/scene.gltf<>uid://b2du5h4iuknnk::::res://scenes/trigger.gd<>uid://crdyjavh4erca::::res://art/item/Junk_Food/Pizza.glb<>uid://dfal4kj4ivtwi::::res://art/item/Junk_Food/Soda_Drink.glb<>uid://b5821oyo7vl5a::::res://art/item/Plate With Food.glb<>uid://cuwp0l05junpp::::res://art/item/Junk_Food/Ice-Cream_Magnum_B.glb<>uid://1nyl1dkvuwsp::::res://art/item/Junk_Food/Potato_Chips.glb
 menu.gd::GDScript/GDScript::832720626712754303::1757493790::0::1::::<>Node<><>0<>0<><>::
-menu.tscn::PackedScene::3533804617037365122::1757931858::0::1::::<><><>0<>0<><>::uid://l4m103usw5qx::::res://scenes/menu.gd<>uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf<>uid://cfv43x53tdhnq::::res://art/Piranha/ChatGPT Image Sep 12, 2025, 09_08_45 PM.png<>uid://cqk868yis5via::::res://fonts/THSarabunNew.ttf
-mob.tscn::PackedScene::7527068395055692921::1757931858::0::1::::<><><>0<>0<><>::uid://b6tkxnq7vq41r::::res://scripts/mob.gd<>uid://co85i0e1fcfu1::::res://art/knife/Kitchen Knife.glb
-music_player.gd::GDScript/GDScript::1957242665654173405::1757766583::0::1::::<>Node<><>0<>0<><>::
-music_player.tscn::PackedScene::6440337352370592683::1757931858::0::1::::<><><>0<>0<><>::uid://25dra4lxyw26::::res://scenes/music_player.gd<>uid://bkjv3mpkb3edq::::res://art/music/Misty Memory (Day Version).mp3<>uid://xl6bd6tfe8ko::::res://art/music/fish-flop-101soundboards.mp3<>uid://c2sx2vfkjrypo::::res://art/music/flop3-fish-101soundboards.mp3
-player.tscn::PackedScene::8478661705936959450::1757931858::0::1::::<><><>0<>0<><>::uid://cad54wjmrsg06::::res://scripts/player.gd<>uid://d4kdtxg821mqo::::res://art/Piranha/piranhahigh.gltf
+menu.tscn::PackedScene::3533804617037365122::1757937017::0::1::::<><><>0<>0<><>::uid://l4m103usw5qx::::res://scenes/menu.gd<>uid://cyxhh7ddkn62q::::res://fonts/Montserrat-Medium.ttf<>uid://cfv43x53tdhnq::::res://art/Piranha/ChatGPT Image Sep 12, 2025, 09_08_45 PM.png<>uid://cqk868yis5via::::res://fonts/THSarabunNew.ttf
+mob.tscn::PackedScene::7527068395055692921::1757937017::0::1::::<><><>0<>0<><>::uid://b6tkxnq7vq41r::::res://scripts/mob.gd<>uid://co85i0e1fcfu1::::res://art/knife/Kitchen Knife.glb
+music_player.gd::GDScript::1957242665654173405::1757937017::0::1::::<>Node<><>0<>0<><>::
+music_player.tscn::PackedScene::6440337352370592683::1757937017::0::1::::<><><>0<>0<><>::uid://25dra4lxyw26::::res://scenes/music_player.gd<>uid://bkjv3mpkb3edq::::res://art/music/Misty Memory (Day Version).mp3<>uid://xl6bd6tfe8ko::::res://art/music/fish-flop-101soundboards.mp3<>uid://c2sx2vfkjrypo::::res://art/music/flop3-fish-101soundboards.mp3<>uid://ds8wihy1cl303::::res://art/music/minecraft-explosion-green-screen.mp3
+player.tscn::PackedScene::8478661705936959450::1757937017::0::1::::<><><>0<>0<><>::uid://cad54wjmrsg06::::res://scripts/player.gd<>uid://d4kdtxg821mqo::::res://art/Piranha/piranhahigh.gltf
+area_3d.gd::GDScript::4255614224283982850::1757933464::0::1::::<>Area3D<><>0<>0<><>::
+trigger.gd::GDScript::4288980921708028616::1757936535::0::1::::<>Area3D<><>0<>0<><>::
+static_body_3d.gd::GDScript::6595163667836304110::1757935107::0::1::::<>StaticBody3D<><>0<>0<><>::
 root.tscn::PackedScene/PackedScene::-1::1757493442::0::1::::<><><>0<>0<><>::uid://dktf3rn1rctie::::res://scenes/main.tscn<>uid://dfifymtckmhgr::::res://scenes/mob.tscn
-::res://scripts/::1757766419
-main.gd::GDScript/GDScript::1707646672002413488::1757765305::0::1::::<>Node<><>0<>0<><>::
+::res://scripts/::1757936535
+main.gd::GDScript::1707646672002413488::1757936535::0::1::::<>Node<><>0<>0<><>::
 mob.gd::GDScript/GDScript::4602146965989800393::1757480726::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player.gd::GDScript/GDScript::4780908968440218345::1757766419::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.gd::GDScript::4780908968440218345::1757936535::0::1::::<>CharacterBody3D<><>0<>0<><>::
 score_label.gd::GDScript/GDScript::3940518275861867030::1757429388::0::1::::<>Label<><>0<>0<><>::

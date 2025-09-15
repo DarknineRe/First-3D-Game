@@ -3,3 +3,10 @@ res://scenes/player.tscn
 res://scenes/mob.tscn
 res://scenes/music_player.tscn
 res://scenes/menu.tscn
+res://scenes/static_body_3d.gd
+res://explosion.tscn
+res://explosion.gd
+res://scenes/trigger.gd
+res://scripts/main.gd
+res://scripts/player.gd
+res://scenes/music_player.gd
