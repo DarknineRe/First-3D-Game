@@ -13,6 +13,7 @@ anchors_preset = 0
 script = ExtResource("1_xwhkk")
 
 [node name="Label" type="Label" parent="."]
+layout_mode = 0
 offset_left = 629.0
 offset_top = 13.0
 offset_right = 1371.0
@@ -25,6 +26,7 @@ text = "0x
 horizontal_alignment = 1
 
 [node name="ProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
 offset_left = 627.0
 offset_top = 41.0
 offset_right = 708.0
@@ -32,6 +34,7 @@ offset_bottom = 46.0
 show_percentage = false
 
 [node name="ScoreLabel" type="Label" parent="."]
+layout_mode = 0
 offset_left = 12.0
 offset_top = 12.0
 offset_right = 106.0

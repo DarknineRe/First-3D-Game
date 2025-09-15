@@ -1,0 +1,8 @@
+res://README.md
+res://scenes/main.tscn
+res://scenes/player.tscn
+res://scenes/mob.tscn
+res://scenes/music_player.tscn
+res://scenes/menu.tscn
+res://explosion.tscn
+res://combo.tscn
