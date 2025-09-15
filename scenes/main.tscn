@@ -23,7 +23,7 @@ material = SubResource("StandardMaterial3D_ig7tw")
 [sub_resource type="Curve3D" id="Curve3D_lquwl"]
 closed = true
 _data = {
-"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -15.0502, -0.6, 16.2961, 0, 0, 0, 0, 0, 0, -16.0173, 0.2, -18.9838, 0, 0, 0, 0, 0, 0, 16.0484, 0.2, -19.8168, 0, 0, 0, 0, 0, 0, 16.8155, -0.4, 16.1631),
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -22.6502, -0.6, 16.2961, 0, 0, 0, 0, 0, 0, -23.4173, 0.4, -19.3838, 0, 0, 0, 0, 0, 0, 24.3484, 0.2, -19.8168, 0, 0, 0, 0, 0, 0, 22.4155, -0.4, 16.1631),
 "tilts": PackedFloat32Array(0, 0, 0, 0)
 }
 point_count = 4
@@ -75,26 +75,26 @@ size = 23.0
 [node name="Cylinders" type="Node3D" parent="."]
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Cylinders"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.7, 1.1, -17.7)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.3, 1, -17.6)
 mesh = SubResource("CylinderMesh_ig7tw")
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="Cylinders"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.7, -0.3, 16.6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.8, -0.3, 16.5)
 mesh = SubResource("CylinderMesh_ig7tw")
 
 [node name="MeshInstance3D3" type="MeshInstance3D" parent="Cylinders"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.3, -0.3, 16.5)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.4, -0.3, 16.5)
 mesh = SubResource("CylinderMesh_ig7tw")
 
 [node name="MeshInstance3D4" type="MeshInstance3D" parent="Cylinders"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.7, 1.6, -18)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.6, 1.6, -18)
 mesh = SubResource("CylinderMesh_ig7tw")
 
 [node name="SpawnPath" type="Path3D" parent="."]
 curve = SubResource("Curve3D_lquwl")
 
 [node name="SpawnLocation" type="PathFollow3D" parent="SpawnPath"]
-transform = Transform3D(0.999614, 0.000620966, 0.0273946, 0, 0.999742, -0.0226613, -0.0274016, 0.0226529, 0.999359, -15.0502, -0.6, 16.2961)
+transform = Transform3D(0.999757, 0.000602049, 0.0214861, -8.73105e-11, 0.999605, -0.0280095, -0.0214943, 0.028003, 0.999377, -22.6502, -0.6, 16.2961)
 
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
