@@ -1,4 +1,4 @@
-extends CanvasLayer
+extends Control
 
 @export var combo_reset_time: float = 2.0
 @onready var combo_bar: ProgressBar = $ProgressBar

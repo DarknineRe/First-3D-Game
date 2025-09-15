@@ -7,7 +7,9 @@
 default_font = ExtResource("2_12glm")
 default_font_size = 22
 
-[node name="Combo" type="CanvasLayer"]
+[node name="Combo" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_xwhkk")
 
 [node name="Label" type="Label" parent="."]

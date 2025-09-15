@@ -1,3 +1,4 @@
+Control
 CanvasLayer
 ProgressBar
 Label
@@ -12,4 +13,3 @@ Node
 MeshInstance3D
 StaticBody2D
 ColorRect
-AnimationPlayer
